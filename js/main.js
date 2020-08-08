@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    //(function ($) {
 
     let $btns = $('.project-area .button-group button');
 
@@ -60,4 +60,5 @@ $(document).ready(function () {
 
     navbarFixed();
 
-});
+    //});
+})(jQuery);
