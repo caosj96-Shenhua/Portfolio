@@ -16,13 +16,8 @@
     <!-- font awesome icons-->
     <link rel="stylesheet" href="./css/all.min.css">
 
-    <!--  Magnific Popup css file  -->
-    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
-
-
-    <!--  Owl-carousel css file  -->
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+    <!--  Magnific Popup css file  
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css"> -->
 
 
     <!--custom css file-->
@@ -451,12 +446,10 @@
         <script src="./vendor/isotope/isotope.min.js"></script>
 
 
-        <!--  Magnific popup script file -->
-        <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+        <!--  Magnific popup script file 
+        <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script> -->
 
 
-        <!--  Owl-carousel js file  -->
-        <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
 
         <!--  custom js file  
         <script src="./js/main.js"></script>  -->
@@ -480,29 +473,12 @@
                 })
 
                 $('.project-area .button-group #btn1').trigger('click');
-
-                $('.project-area .grid .test-popup-link').magnificPopup({
-                    type: 'image',
-                    gallery: { enabled: true }
-                });
-
-
-                // Owl-carousel
-
-                $('.site-main .about-area .owl-carousel').owlCarousel({
-                    loop: true,
-                    autoplay: true,
-                    dots: true,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        560: {
-                            items: 2
-                        }
-                    }
-                })
-
+                /*
+                                $('.project-area .grid .test-popup-link').magnificPopup({
+                                    type: 'image',
+                                    gallery: { enabled: true }
+                                });
+                */
                 // sticky navigation menu
 
                 let nav_offset_top = $('.header_area').height() + 50;
