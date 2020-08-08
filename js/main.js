@@ -1,8 +1,7 @@
-//$(document).ready(function () {
-(function ($) {
+$(document).ready(function () {
+    //(function ($) {
 
     let $btns = $('.project-area .button-group button');
-
 
     $btns.click(function (e) {
 
@@ -60,5 +59,5 @@
 
     navbarFixed();
 
-    //});
-})(jQuery);
+});
+//})(jQuery);
