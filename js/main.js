@@ -1,5 +1,5 @@
-$(document).ready(function () {
-    //(function ($) {
+//$(document).ready(function () {
+(function ($) {
 
     let $btns = $('.project-area .button-group button');
 
